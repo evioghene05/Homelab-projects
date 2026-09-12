@@ -46,12 +46,25 @@ troubleshooting is often faster than UI-based debugging for service-level
 failures.
 
 ## Screenshots
-1. 01-dashboard-agent-active.png — Agent showing Active in the dashboard
-2. 02-ssh-failure-alerts-list.png — List of SSH authentication failure alerts
-3. 03-ssh-failure-alert-detail.png — Expanded detail view of one alert
-4. 04-bruteforce-alert.png — Higher-severity brute-force detection (rule level 10)
-5. 06-custom-rule-code.png — Custom rule added to local_rules.xml
-6. 07-custom-rule-alert.png — Custom rule (100010) successfully firing
+
+
+*Agent showing Active in the dashboard*
+![Agent Active](01-dashboard-agent-active.png)
+
+*List of SSH authentication failure alerts*
+![SSH Failure Alerts](02-ssh-failure-alerts-list.png)
+
+*Expanded detail view of one alert*
+![SSH Failure Detail](03-ssh-failure-alert-detail.png)
+
+*Higher-severity brute-force detection (rule level 10)*
+![Brute Force Alert](04-bruteforce-alert.png)
+
+*Custom rule added to local_rules.xml*
+![Custom Rule Code](06-custom-rule-code.png)
+
+*Custom rule (100010) successfully firing*
+![Custom Rule Alert](07-custom-rule-alert.png)
 
 ## Custom Rule
 ```xml
